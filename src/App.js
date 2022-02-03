@@ -1,8 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import { GET_TODOS } from './graphql/query'
-import { ApolloClient, InMemoryCache, ApolloProvider, useQuery, gql } from "@apollo/client"
-import moment from 'moment'
 
 function GetTodos() {
   const { loading, error, data } = useQuery(GET_TODOS)
