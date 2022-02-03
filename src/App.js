@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { GET_TODOS } from './graphql/query'
+import { useQuery } from "@apollo/client"
 
 function GetTodos() {
   const { loading, error, data } = useQuery(GET_TODOS)
