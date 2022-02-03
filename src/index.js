@@ -6,7 +6,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client"
 import reportWebVitals from './reportWebVitals';
 
 const client = new ApolloClient({
-  uri: "https://mern-heroku-00.herokuapp.com/graphql",
+  uri: "https://server-heroku-01.herokuapp.com/graphql",
   cache: new InMemoryCache()
 })
 
